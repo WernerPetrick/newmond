@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage":"https://github.com/WernerPetrick/newmond",
+  "homepage":"https://wernerpetrick.github.io/newmond/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
