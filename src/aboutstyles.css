@@ -1,0 +1,26 @@
+.about{
+  max-width: 65%;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-text{
+  width: 30rem;
+  margin-right: 4rem;
+}
+
+.about-text h2{
+  margin-bottom: 3rem;
+}
+
+.about-text p{
+  margin-bottom: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.about-img img{
+  width: 25rem;
+  border-radius: 24px;
+}

@@ -1,0 +1,23 @@
+.services{
+  max-width: 48rem;
+  margin: 5rem auto;
+}
+
+.services h2{
+  margin-bottom: 2rem;
+}
+
+.services p{
+  margin-bottom: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.services ul{
+  list-style: none;
+  padding: 0;
+  line-height: 1.6rem;
+}
+
+.services span{
+  font-weight: bold;
+}

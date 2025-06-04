@@ -1,0 +1,7 @@
+.stats-container{
+  max-width: 65%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+

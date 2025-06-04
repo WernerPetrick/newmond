@@ -1,0 +1,37 @@
+footer{
+  background-color: #111826;
+  height: 16rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.company-info h5{
+  font-size: 2rem;
+}
+
+.links{
+  display: flex;
+}
+
+.links ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 2rem;
+}
+
+.links ul li {
+  margin: 0 15px;
+}
+
+.links a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer-icon{
+  width: 2rem;
+  height: 2rem;
+  margin-right: 10px;
+}
