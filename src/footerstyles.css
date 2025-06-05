@@ -35,3 +35,44 @@ footer{
   height: 2rem;
   margin-right: 10px;
 }
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 1rem;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .company-info h5 {
+    font-size: 1.5rem;
+  }
+
+  .links ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .links ul li {
+    margin: 0.5rem 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  footer {
+    padding: 1.5rem 0.5rem;
+    gap: 1.5rem;
+  }
+
+  .company-info h5 {
+    font-size: 1.3rem;
+  }
+
+  .footer-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 8px;
+  }
+}

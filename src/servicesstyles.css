@@ -21,3 +21,21 @@
 .services span{
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .services {
+    max-width: 90%;
+    margin: 3rem auto;
+  }
+
+  .services h2 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    max-width: 95%;
+    margin: 2rem auto;
+  }
+}

@@ -17,3 +17,32 @@
 .lined{
   border: 1px solid #F2B807;
 }
+
+@media (max-width: 768px) {
+  .card {
+    max-width: 100%;
+    padding: 1.5rem 2rem;
+  }
+
+  .card-icon img {
+    width: 5rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 1rem 1.5rem;
+  }
+
+  .card-icon img {
+    width: 4rem;
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+  }
+}

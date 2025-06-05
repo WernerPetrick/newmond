@@ -5,3 +5,19 @@
   justify-content: space-around;
 }
 
+@media (max-width: 768px) {
+  .stats-container {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .stats-container {
+    max-width: 95%;
+    gap: 0.5rem;
+  }
+}

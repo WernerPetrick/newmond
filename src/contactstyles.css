@@ -93,3 +93,41 @@
 .contact-form {
   animation: fadeInUp 0.6s ease;
 }
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 2rem 1rem;
+    max-width: 95%;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .contact h3 {
+    font-size: 1.1rem;
+  }
+
+  .contact-form {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding: 1.5rem 0.5rem;
+  }
+
+  .contact h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact-form {
+    padding: 1rem;
+  }
+
+  .contact-form-element button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+  }
+}
