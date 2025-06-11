@@ -1,0 +1,12 @@
+.client-logo{
+  width: 25%;
+  padding: 10px;
+}
+
+.client-logo img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit:contain;
+  aspect-ratio: 1;
+}
